@@ -55,4 +55,4 @@ const Modal = ({onClose,open}) => {
   )
 }
 
-export default Modal
+export default Modal
