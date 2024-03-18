@@ -7,7 +7,13 @@
 .lnavbar{
     background-color: aqua;
 }
-
+.close {
+  background-color: transparent;
+  border: none;
+  color: #B0B8C4;
+  cursor: pointer;
+  font-size: larger;
+}
 .lmenu{
     width: 60%;
     display: flex;
@@ -26,11 +32,11 @@
 
 
 
-.lmodal{
+  .lmodal {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     background-color: #141A1F;
     z-index: 1000;
     width: 400px;
@@ -44,15 +50,16 @@
     font-size: larger;
     font-weight: 500;
   }
+  .logi {
+    margin-left: 10.5rem; /* Center the text */
+  }  
   
-  .lmodal_top{
+  .lmodal_top {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    padding: 5px;
-    width: 90%;
+    align-items: center;
   }
-  
 
   .navSearch{
     width: 500px;
@@ -80,24 +87,28 @@
   }
 
 
-  .login-btn{
-    font-size: 15px;
-    font-weight: bolder;
-    padding: 5px;
-    height: 30px;
-    background-color: #101418B3;
-    border: 0px;
-    border-radius: 10px;
-    width: 80px;
-    outline: thin solid grey;
-    color: #B0B8C4;
-    cursor: pointer;
-  }
-  
-  .login-btn:hover{
-    outline: thin solid #3b83f6c0;
-    color: #3B82F6;
-  }
+  .login-btn,
+.register-btn {
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 5px;
+  height: 30px;
+  background-color: #101418B3;
+  border: 0px;
+  border-radius: 10px;
+  width: 80px;
+  outline: thin solid grey;
+  color: #B0B8C4;
+  cursor: pointer;
+  display: inline-block; 
+  margin: right 10px;; 
+}
+.login-btn:hover,
+.register-btn:hover {
+  outline: thin solid #3b83f6c0;
+  color: #3B82F6;
+}
+
 
   .error-message{
     color: red;

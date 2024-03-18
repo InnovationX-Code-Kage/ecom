@@ -8,10 +8,13 @@ import Kitchen from "./Components/Product/Kitchen/Kitchen";
 import Cart from "./Components/Cart/Cart";
 import { ShopContextProvider } from "./Components/Context/ShopContext";
 import Dashpage from "./Components/Dashboard/Dashpage";
-export const udetails = ['admin', '@MAINadmin123'];
+export const udetails = [{'admin': '@MAINadmin123'}];
 
 
 function App() {
+  const updateUdetails = (newUdetails) => {
+    udetails.push(newUdetails)
+  };
   return (
     <ShopContextProvider>
       <BrowserRouter>
