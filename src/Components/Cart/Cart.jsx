@@ -23,6 +23,7 @@ const Cart = () => {
   const formattedTax = taxAmt.toFixed(2);
   const formattedTotalAmount = totalAmount.toFixed(2);
   const formattedTotal = total.toFixed(2);
+  // const formattedSavings = total.toFixed(2);
   const formattedAmnt = Amnt ? Amnt.toFixed(2) : '0.00';
 
   const[isOpen, setIsOpen] = useState(false);
@@ -36,6 +37,7 @@ const Cart = () => {
   
   const handleInputChange = (event) => {
     const userInput = event.target.value;
+    // Check if the user input is available in the array
     if (textArray.includes(userInput)) {
       setCoupon(userInput);
     } else {
@@ -55,7 +57,10 @@ const Cart = () => {
   };
 
   const handleCheckout = () => {
+    // Save the userData array in the localStorage
     localStorage.setItem('userDetails', JSON.stringify(userData));
+    // Proceed with the checkout process
+    // ...
   };
 
 
@@ -157,7 +162,7 @@ const Cart = () => {
          </div>
          <button className='shop-btn' onClick={() => {
     if (userData.name === "" || userData.address === "" || userData.phoneNumber === "")  {
-      setIsOpen(false); 
+      setIsOpen(false); // Set isOpen to false if userData.name is empty
       alert("Please enter all required information");
     } else {
       handleCheckout();
