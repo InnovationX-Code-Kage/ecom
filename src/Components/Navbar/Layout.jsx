@@ -45,7 +45,7 @@ const Layout = () => {
              <Link to='/Kitchen' className='link'><span className='menu-span'>Kitchen</span></Link>
              <Link  className='link-ex' onClick={()=>lsetIsOpen(true)}><span  className='menu-span'>Admin</span></Link>
              <Login open={lisOpen} onClose={()=>lsetIsOpen(false)}/>
-             {/* <Link to='/faq' className='link'><span className='menu-span'>FAQ</span></Link> */}
+             
            </div>
            <div className='right-menu'>
            <button className='r-m-btn' onClick={()=>setIsOpen(true)}>

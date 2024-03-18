@@ -138,19 +138,12 @@
 
 
 
-/* ================================================== */
-/* ============Home Page starting ===================*/
 .home{
   background-color: #F2E3DB;
   color: white;
   height: 100%;
 }
 
-
-
-
-/* ================================================== */
-/* ============First-Body===================*/
 
 .firstbody{
   display: flex;
@@ -186,8 +179,6 @@
 
 
 
-/* ================================================== */
-/* ============Cards-Body===================*/
 
 .cardsbody{
   height: 750px;
@@ -247,9 +238,6 @@
 
 
 
-/* ================================================== */
-/* ============Brands-Body===================*/
-
 
 .brandbody{
   height: 350px;
@@ -277,8 +265,6 @@
 }
 
 
-/* ================================================== */
-/* ============Feedback-Body===================*/
 .feedbackbody{
   height: 200px;
   display: flex;
@@ -310,8 +296,6 @@
 
 
 
-/* ==================================================== */
-/* =====================footer======================== */
 .firstfooter{
   height: 80px;
   display: flex;
@@ -466,19 +450,11 @@ hr{
 }
 
 
-
-
-
-/* ======================================= */
-/* =============KITCHENPAGE============== */
 .kitchen{
     background-color: #141A1F;
     color: white;
     height: 100%;
   }
-
-  /* ===================================== */
-  /* ===============firstbody============ */
   .kitchen_firstbody{
     display: flex;
     justify-content: center;
@@ -486,9 +462,6 @@ hr{
     height: 600px;
   }
 
-
-  /* ===================================== */
-  /* ===============Kitch-Card-body============ */
   .kcardbody{
     height: 950px;
     display: flex;
@@ -643,9 +616,6 @@ hr{
     color: #263A29;
   }
 
-
-  /* ======================================== */
-  /* ================popup================== */
   .kpopup{
     top: 0%;
     left: 0%;
@@ -674,7 +644,6 @@ hr{
       justify-content: space-evenly;
       align-items: center;
       flex-direction: column;
-      /* background-color: #101418B3; */
       background-color: black;
       color: #FFFFFF;
       width: 510px;
