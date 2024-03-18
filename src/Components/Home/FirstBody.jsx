@@ -5,9 +5,31 @@ const FirstBody = () => {
   return (
     <div className='firstbody'>
       <div className="fb-card">
-        <img src={logo} alt="" width='100px'/>
-        <span className='fb-span-1'>Welcome to <span className='fb-span-blue-txt'>Foodzee</span> - Your Solution for Discounted Food Items!</span><br/>
-        <span className='fb-span-body'>At Foodzee, we specialize in delivering high-quality food items that are nearing their expiration dates at unbeatable prices. Our mission is to reduce food waste while providing you with fantastic deals on fresh and delicious products. From pantry staples to gourmet treats, Foodzee has everything you need to enjoy great food without breaking the bank.</span>
+        <h1 className='welcome-text'>Welcome to <span className='fb-span-blue-txt'>Foodzee</span></h1>
+        <div className="food-categories">
+          <div className="category">
+            <div className="circle"></div>
+          </div>
+          <div className="category">
+            <div className="circle"></div>
+          </div>
+          <div className="category">
+            <div className="circle"></div>
+          </div>
+          <div className="category">
+            <div className="circle"></div>
+          </div>
+          <div className="category">
+            <div className="circle"></div>
+          </div>
+          <div className="category">
+            <div className="circle"></div>
+          </div>
+          <div className="category">
+            <div className="circle"></div>
+          </div>
+          {/* Add more category divs as needed */}
+        </div>
       </div>
     </div>
   );
