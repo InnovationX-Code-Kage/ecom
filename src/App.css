@@ -11,7 +11,7 @@
 }
 
 .navbar{
-  background-color: #101418B3;   
+  background-color: #4b875a;   
   height: 60px;
   display: flex;
   width: 100%;
@@ -67,7 +67,7 @@
   align-items: center;
   width: 20px;
   border-radius: 5px;
-  color: #3B82F6;
+  color: #263A29;
   font-weight: bolder;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .menu-span:hover{
-  color: #3B82F6;
+  color: #263A29;
 }
 
 
@@ -97,7 +97,7 @@
 }
 
 .r-m-btn:hover{
-  outline: thin solid #3b83f6c0;
+  outline: thin solid #263A29;
 }
 
 .sub-btn{
@@ -124,7 +124,7 @@
   border: 0px;
   padding: 0 10px;
   outline: none;
-  background-color: rgba(224, 224, 224, 0.473);
+  background-color:#263A29;
   font-size: medium;
 }
 
@@ -141,7 +141,7 @@
 /* ================================================== */
 /* ============Home Page starting ===================*/
 .home{
-  background-color: #141A1F;
+  background-color: #F2E3DB;
   color: white;
   height: 100%;
 }
@@ -175,7 +175,7 @@
 }
 
 .fb-span-blue-txt{
-  color: #3B82F6;
+  color: #263A29;
 }
 
 .fb-span-body{
@@ -221,7 +221,7 @@
 }
 
 .cards:hover{
-  outline: thin solid #3b83f6c0;
+  outline: thin solid #263A29;
 }
 
 
@@ -284,7 +284,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background:linear-gradient(to top,#3b83f62f ,#10141800 50%);
+  background:linear-gradient(to top,#e2b8a2  ,#57807600 50%);
 }
 
 .fb-text{
@@ -305,7 +305,7 @@
   font-size: 16px;
   width: 70%;
   text-align: center;
-  color: #B0B8C4;
+  color: #263A29;
 }
 
 
@@ -404,8 +404,8 @@ display: flex;
 }
 
 .close:hover{
-  outline: thin solid #3b83f6c0;
-  color: #3B82F6;
+  outline: thin solid #263A29;
+  color: #263A29;
 }
 
 .popular_search{
@@ -420,7 +420,7 @@ display: flex;
 hr{
   margin-top: 20px;
   width: 100%;
-  border: thin solid #3b83f6c0;
+  border: thin solid #263A29;
 }
 
 
@@ -515,7 +515,7 @@ hr{
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    background-color: #3b83f65e;
+    background-color: #263A29;
   }
 
   .Kmain_card-sub{
@@ -525,7 +525,7 @@ hr{
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-        background-color: #3b83f65e;
+        background-color: #263A29;
 
   }
 
@@ -575,15 +575,15 @@ hr{
   }
 
   .kpopup-img:hover{
-    outline: 3px solid #3b83f6c0;
+    outline: 3px solid #263A29;
   }
   
   .kcards:hover{
-    outline: thin solid #3b83f6c0;
+    outline: thin solid #263A29;
   }
   
   .kcard-popup:hover{
-    outline: thin solid #3b83f6c0;
+    outline: thin solid #263A29;
   }
   
   .kcard-img{
@@ -639,8 +639,8 @@ hr{
   }
   
   .read_more:hover{
-    outline: thin solid #3b83f6c0;
-    color: #3B82F6;
+    outline: thin solid #263A29;
+    color: #263A29;
   }
 
 
@@ -686,7 +686,7 @@ hr{
     }
   
     .k-popup:hover{
-      outline: thin solid #3b83f6c0;
+      outline: thin solid #263A29;
     }
 
  
@@ -717,7 +717,7 @@ hr{
       font-size: 18px;
       text-align: center;
       font-weight: bolder;
-      color: #3B82F6;
+      color: #263A29;
     }
   
 
@@ -783,7 +783,7 @@ hr{
   
   
    .popup-btn:hover{
-    outline: thin solid #3b83f6c0;
+    outline: thin solid #263A29;
     color: #3B82F6;
   }
 
