@@ -87,7 +87,7 @@ export const ShopContextProvider = (props) => {
 
 
    const cartAmount = () => {
-    const cartAmtPerItem = {}; 
+    const cartAmtPerItem = {}; // Create an object to store cartAmt for each item ID
   
     for (const item in cartItems) {
       if (cartItems[item] > 0) {
@@ -97,18 +97,18 @@ export const ShopContextProvider = (props) => {
           const itemId = itemInfo.id;
           const itemQuantity = cartItems[item];
           
-          
+          // Check if the item ID exists in cartAmtPerItem object, if not, add it
           if (!cartAmtPerItem[itemId]) {
             cartAmtPerItem[itemId] = itemQuantity;
           } else {
-          
+            // If the item ID already exists, add the quantity to the existing value
             cartAmtPerItem[itemId] += itemQuantity;
           }
         }
       }
     }
   
-    return cartAmtPerItem;
+    return cartAmtPerItem; // Return the object containing cartAmt for each item ID
   };
   
 
