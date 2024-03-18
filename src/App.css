@@ -24,7 +24,7 @@
   z-index: 1000;
 }
 
-.logo{
+.logo {
   margin-left: 40px;
   display: flex;
   justify-content: center;
@@ -32,10 +32,11 @@
 }
 
 .menu{
-  width: 30%;
+  /* width: 30%; */
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   align-items: center;
+  margin-left: 180px;
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 600;
 }
@@ -88,23 +89,16 @@
   justify-content: space-evenly;
   align-items: center;
   border-radius: 10px;
-  background-color: #1F262E66;
-  color: #B0B8C4;
-  outline: thin solid grey;
+  background-color: #4b875a;
+  color: #ffffff;
+  outline: thin solid rgb(255, 255, 255);
   border: 0px;
   padding: 5px;
   cursor: pointer;
 }
 
 .r-m-btn:hover{
-  outline: thin solid #263A29;
-}
-
-.sub-btn{
-  background-color: #101418cf;
-  padding: 5px;
-  color: #B0B8C4;
-  border-radius: 5px;
+  outline: thin solid #000000;
 }
 
 .link{
@@ -124,7 +118,7 @@
   border: 0px;
   padding: 0 10px;
   outline: none;
-  background-color:#263A29;
+  background-color:#4b875a;
   font-size: medium;
 }
 
@@ -137,7 +131,6 @@
 }
 
 
-
 /* ================================================== */
 /* ============Home Page starting ===================*/
 .home{
@@ -146,6 +139,32 @@
   height: 100%;
 }
 
+.welcome-text {
+  text-align: center;
+  color: #4b875a;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+/* Add this CSS to your stylesheet */
+.circle {
+  width: 175px;
+  height: 175px;
+  border: 2px solid black; /* Add black border */
+  border-radius: 50%; /* Make it a circle */
+  margin: 5px; /* Adjust margin as needed */
+  margin-bottom: 180px;
+}
+
+/* Optional: Add styles for the food categories */
+.food-categories {
+  display: flex;
+}
+
+.category {
+  margin-right: 10px; /* Adjust margin between categories */
+}
 
 
 
@@ -175,12 +194,12 @@
 }
 
 .fb-span-blue-txt{
-  color: #263A29;
+  color: #4b875a;
 }
 
 .fb-span-body{
   text-align: center;
-  color: #B0B8C4;
+  color: #4b875a;
   width: 700px;
 }
 
