@@ -37,6 +37,16 @@ const Layout = () => {
 
   return (
     <div className='nav_main'>
+      <div className='navbar'>
+        <Link to='/'> <img src={logo} alt="" width="150px" className='logo' /> </Link>
+
+        <div className='menu'>
+          <Link to='/' className='link-ex'><span className='menu-span'>Home</span></Link>
+          <Link to='/' className='link-ex'><span className='menu-span'>Orders</span></Link>
+          {/* <Link to='/Kitchen' className='link'><span className='menu-span'>Kitchen</span></Link> */}
+          <Link className='link-ex' onClick={() => lsetIsOpen(true)}><span className='menu-span'>Admin</span></Link>
+          <Login open={lisOpen} onClose={() => lsetIsOpen(false)} />
+          {/* <Link to='/faq' className='link'><span className='menu-span'>FAQ</span></Link> */}
         </div>
         <div className='right-menu'>
           <button className='r-m-btn' onClick={() => setIsOpen(true)} style={{ width: '100px', display: 'flex', alignItems: 'center' }}>
