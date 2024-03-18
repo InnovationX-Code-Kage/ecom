@@ -34,7 +34,7 @@ const Modal1 = ({onClose,open,formattedTotal,formattedAmnt,formattedTotalAmount,
   
   const currentDate = new Date();
   const day = currentDate.getDate();
-  const month = currentDate.getMonth() + 1; // Note: months are zero-based, so we add 1 to get the correct month
+  const month = currentDate.getMonth() + 1; 
   const year = currentDate.getFullYear();
 
 
@@ -53,8 +53,6 @@ const Modal1 = ({onClose,open,formattedTotal,formattedAmnt,formattedTotalAmount,
       const canvas = await html2canvas(printableRef.current);
       const image = canvas.toDataURL('image/png');
       setPrintedImages([...printedImages, image]);
-
-      // Optionally, you can open a new window and display the image for the user to print manually
       const printWindow = window.open('', '_blank');
       printWindow.document.write('<img src="' + image + '" />');
       printWindow.document.close();
@@ -88,12 +86,6 @@ const handleShareWhatsApp = () => {
   window.open(whatsappURL);
 };
 
-
-// Name: Sharath King
-// Address: Manjeri
-// Pin-code: 626262
-// Phone Number: 79946536071
-
 const invoiceDetails = {
   invoiceNumber: Number(currentInvoiceNumber),
   name,
@@ -119,14 +111,11 @@ useEffect(() => {
 }, []);
 
 const addToLocStore = (invoiceDetails) => {
-  // Add the new invoiceDetails to the existing booked services array with status "Pending"
+  
   const updatedInvoiceDetails = { ...invoiceDetails, status: 'Pending' };
   const updatedBookedServices = [...LocStoreData, updatedInvoiceDetails];
 
-  // Update the state with the updated booked services array
   setLocStoreData(updatedBookedServices);
-
-  // Store the updated array in localStorage
   localStorage.setItem('bookedServices', JSON.stringify(updatedBookedServices));
 };
 
@@ -164,9 +153,6 @@ const addToLocStore = (invoiceDetails) => {
                   <td >TABLE DESCRIPTION</td>
                   <td>QTY</td>
                   <td>PRICE</td>
-                 
-                  {/* <td>QTY</td>
-                  <td>TOTAL</td> */}
 
                 </thead>
                 
