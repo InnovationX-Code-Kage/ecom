@@ -1,5 +1,4 @@
 import React from 'react'
-// import { Link } from 'react-router-dom';
 import {ShopContext} from '../../Context/ShopContext';
 import { useContext } from 'react';
 
@@ -8,15 +7,12 @@ const KitchenPopup = ({trigger,setTrigger,product}) => {
  
   const {addToCart} = useContext(ShopContext)
 
-  // const cartItemAmount = cartItems()
 
 
 
 
     return (trigger)?(
         <div className='k-popup'>
-        {/* {card1.map((item)=>{
-           return(  */}
            <div className='k-head'>
             <div className='k-popup-img'>
           <img src={product.img2} alt="" className='kpopup-img' />
@@ -39,7 +35,6 @@ const KitchenPopup = ({trigger,setTrigger,product}) => {
 
         <span className='k-body-span'>{product.quote}</span>
         </div>
-     {/* )})}  */}
         <div className='kbtns'>
           <button  className="popup-btn" onClick={()=>setTrigger(false)}>close</button>
            

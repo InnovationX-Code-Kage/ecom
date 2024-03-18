@@ -45,10 +45,6 @@ const Dashpage = () => {
           
            <div className='lmenu'>
            <Link to='/'> <img src={logo} alt="" width="150px" className='llogo'/> </Link>
-             {/* <Link to='/' className='link'><span className='menu-span'>Home</span></Link>
-             <Link to='/Kitchen' className='link'><span className='menu-span'>Kitchen</span></Link> */}
-             {/* <Link to='/login' className='link'><span className='menu-span'>Login</span></Link> */}
-             {/* <Link to='/faq' className='link'><span className='menu-span'>FAQ</span></Link> */}
            </div>
           
         </div>
