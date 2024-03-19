@@ -1,0 +1,116 @@
+.lnav_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 100%;
+  }
+  
+  .navbar {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .lmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .llogo {
+    margin-left: 20px;
+  }
+  
+  .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .left-side-bar {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .left-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .adminlogo {
+    margin-bottom: 10px;
+  }
+  
+  .dash-txt {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .left-menu {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .left-menu.selected {
+    color: #007bff;
+  }
+  
+  .menu-link {
+    text-decoration: none;
+  }
+  
+  .middle-cards {
+    flex: 2;
+  }
+  
+  .right-side-bar {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .right-cards {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .right-card {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .right-card-txt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-txt {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .right-card-img {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .right-card-img img {
+    width: 50px;
+    height: 50px;
+  }
+  
